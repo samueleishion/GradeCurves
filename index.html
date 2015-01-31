@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html><head>
+
+<!-- Library Dependencies --> 
+<script src="scrs/jquery.min.js" defer></script> 
+<script src="scrs/d3.min.js" defer></script> 
+<script src="scrs/c3.min.js" defer></script> 
+<script src="scrs/chart.js" defer></script> 
+<script src="scrs/main.js" defer></script> 
+
+<!-- Styles --> 
+<link rel="stylesheet" type="text/css" href="scrs/c3.min.css"> 
+<link rel="stylesheet" type="text/css" href="stys/global.css"> 
+
+</head><body>
+
+<options>
+ <ul>
+ 	<li class="option" id="sort">Sort dataset</li>
+ 	<li class="option" id="table">Table view</li> 
+ 	<li class="option selected" id="plot">PLOT!</li> 
+ </ul> 
+</options> 
+
+<info>
+	<span class="label">
+		avg: <span id="avg">0</span> 
+	</span> 
+	<span class="label">
+		std dev: <span id="stddev">0</span> 
+	</span> 
+</info> 
+
+<grades>
+	<div class="add_input">add input</div> 
+</grades> 
+
+<graph>
+</graph>
+
+<curtain>
+	<div class="option" id="close">X</div> 
+	<modal>
+		Table view
+	</modal> 
+</curtain> 
+
+</body></html> 
